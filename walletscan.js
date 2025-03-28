@@ -2,7 +2,8 @@ const axios = require('axios');
 const readline = require('readline');
 
 const NETWORKS = {
-    '1': { name: 'Soneium', url: 'https://soneium.blockscout.com/' },'2': { name: 'Optimism', url: 'https://optimism.blockscout.com/api' },
+    '1': { name: 'Soneium', url: 'https://soneium.blockscout.com/api' },
+    '2': { name: 'Optimism', url: 'https://optimism.blockscout.com/api' },
     '3': { name: 'Base', url: 'https://base.blockscout.com/api' },
     '4': { name: 'Mode', url: 'https://explorer.mode.network/api' },
     '5': { name: 'Unichain', url: 'https://unichain.blockscout.com/api' },
